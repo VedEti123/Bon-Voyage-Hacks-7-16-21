@@ -1,306 +1,307 @@
-New York City,New York City
-Los Angeles,Los Angeles
-Chicago,Chicago
-Houston,Houston
-Phoenix,Phoenix
-Philadelphia,Philadelphia
-San Antonio,San Antonio
-San Diego,San Diego
-Dallas,Dallas
-San Jose,San Jose
-Austin,Austin
-Fort Worth,Fort Worth
-Jacksonville,Jacksonville
-Columbus,Columbus
-Charlotte,Charlotte
-Indianapolis,Indianapolis
-San Francisco,San Francisco
-Seattle,Seattle
-Denver,Denver
-Washington DC,Washington DC
-Boston,Boston
-El Paso,El Paso
-Nashville,Nashville
-Detroit,Detroit
-Las Vegas,Las Vegas
-Oklahoma City,Oklahoma City
-Portland,Portland
-Memphis,Memphis
-Louisville,Louisville
-Milwaukee,Milwaukee
-Baltimore,Baltimore
-Albuquerque,Albuquerque
-Tucson,Tucson
-Fresno,Fresno
-Mesa,Mesa
-Sacramento,Sacramento
-Atlanta,Atlanta
-Kansas City,Kansas City
-Colorado Springs,Colorado Springs
-Omaha,Omaha
-Raleigh,Raleigh
-Miami,Miami
-Long Beach,Long Beach
-Virginia Beach,Virginia Beach
-Minneapolis,Minneapolis
-Oakland,Oakland
-Tampa,Tampa
-Tulsa,Tulsa
-Arlington,Arlington
-Wichita,Wichita
-New Orleans,New Orleans
-Aurora,Aurora
-Bakersfield,Bakersfield
-Cleveland,Cleveland
-Anaheim,Anaheim
-Honolulu,Honolulu
-Santa Ana,Santa Ana
-Riverside,Riverside
-Henderson,Henderson
-Corpus Christi,Corpus Christi
-Lexington,Lexington
-Stockton,Stockton
-Saint Paul,Saint Paul
-Cincinnati,Cincinnati
-Pittsburgh,Pittsburgh
-Greensboro,Greensboro
-St. Louis,St. Louis
-Plano,Plano
-Lincoln,Lincoln
-Orlando,Orlando
-Anchorage,Anchorage
-Durham,Durham
-Irvine,Irvine
-Newark,Newark
-Chula Vista,Chula Vista
-Fort Wayne,Fort Wayne
-Toledo,Toledo
-St. Petersburg,St. Petersburg
-Chandler,Chandler
-Laredo,Laredo
-Madison,Madison
-Jersey City,Jersey City
-Scottsdale,Scottsdale
-Lubbock,Lubbock
-North Las Vegas,North Las Vegas
-Reno,Reno
-Gilbert,Gilbert
-Glendale,Glendale
-Buffalo,Buffalo
-Winston–Salem,Winston–Salem
-Chesapeake,Chesapeake
-Norfolk,Norfolk
-Irving,Irving
-Garland,Garland
-Fremont,Fremont
-Richmond,Richmond
-Hialeah,Hialeah
-Boise,Boise
-Spokane,Spokane
-Tacoma,Tacoma
-Baton Rouge,Baton Rouge
-San Bernardino,San Bernardino
-Fontana,Fontana
-Modesto,Modesto
-Moreno Valley,Moreno Valley
-Des Moines,Des Moines
-Fayetteville,Fayetteville
-Santa Clarita,Santa Clarita
-Frisco,Frisco
-Port St. Lucie,Port St. Lucie
-McKinney,McKinney
-Oxnard,Oxnard
-Birmingham,Birmingham
-Rochester,Rochester
-Salt Lake City,Salt Lake City
-Huntsville,Huntsville
-Cape Coral,Cape Coral
-Tempe,Tempe
-Yonkers,Yonkers
-Grand Rapids,Grand Rapids
-Amarillo,Amarillo
-Huntington Beach,Huntington Beach
-Little Rock,Little Rock
-Augusta,Augusta
-Overland Park,Overland Park
-Tallahassee,Tallahassee
-Montgomery,Montgomery
-Akron,Akron
-Grand Prairie,Grand Prairie
-Knoxville,Knoxville
-Sioux Falls,Sioux Falls
-Mobile,Mobile
-Vancouver,Vancouver
-Shreveport,Shreveport
-Chattanooga,Chattanooga
-Worcester,Worcester
-Brownsville,Brownsville
-Ontario,Ontario
-Fort Lauderdale,Fort Lauderdale
-Peoria,Peoria
-Providence,Providence
-Newport News,Newport News
-Rancho Cucamonga,Rancho Cucamonga
-Elk Grove,Elk Grove
-Salem,Salem
-Oceanside,Oceanside
-Santa Rosa,Santa Rosa
-Pembroke Pines,Pembroke Pines
-Cary,Cary
-Eugene,Eugene
-Garden Grove,Garden Grove
-Corona,Corona
-Fort Collins,Fort Collins
-Springfield,Springfield
-Clarksville,Clarksville
-Alexandria,Alexandria
-Hayward,Hayward
-Jackson,Jackson
-Lakewood,Lakewood
-Lancaster,Lancaster
-Salinas,Salinas
-Hollywood,Hollywood
-Killeen,Killeen
-Macon,Macon
-Sunnyvale,Sunnyvale
-Murfreesboro,Murfreesboro
-Palmdale,Palmdale
-Escondido,Escondido
-Pasadena,Pasadena
-Pomona,Pomona
-Thornton,Thornton
-Bellevue,Bellevue
-Naperville,Naperville
-Surprise,Surprise
-Denton,Denton
-Midland,Midland
-Joliet,Joliet
-Rockford,Rockford
-Paterson,Paterson
-Roseville,Roseville
-McAllen,McAllen
-Savannah,Savannah
-Bridgeport,Bridgeport
-Olathe,Olathe
-Torrance,Torrance
-Waco,Waco
-Syracuse,Syracuse
-Miramar,Miramar
-Fullerton,Fullerton
-Dayton,Dayton
-Carrollton,Carrollton
-Charleston,Charleston
-Mesquite,Mesquite
-Orange,Orange
-Round Rock,Round Rock
-Hampton,Hampton
-Visalia,Visalia
-Gainesville,Gainesville
-Cedar Rapids,Cedar Rapids
-West Valley City,West Valley City
-Coral Springs,Coral Springs
-Warren,Warren
-Columbia,Columbia
-Sterling Heights,Sterling Heights
-Stamford,Stamford
-Santa Clara,Santa Clara
-New Haven,New Haven
-Kent,Kent
-Concord,Concord
-Elizabeth,Elizabeth
-Lafayette,Lafayette
-Athens,Athens
-Thousand Oaks,Thousand Oaks
-Norman,Norman
-Odessa,Odessa
-Fargo,Fargo
-Simi Valley,Simi Valley
-Victorville,Victorville
-Wilmington,Wilmington
-Topeka,Topeka
-Abilene,Abilene
-Pearland,Pearland
-Berkeley,Berkeley
-Arvada,Arvada
-Hartford,Hartford
-Allentown,Allentown
-Meridian,Meridian
-Richardson,Richardson
-Vallejo,Vallejo
-Ann Arbor,Ann Arbor
-College Station,College Station
-Cambridge,Cambridge
-North Charleston,North Charleston
-Evansville,Evansville
-Sugar Land,Sugar Land
-Clovis,Clovis
-Fairfield,Fairfield
-Lansing,Lansing
-Palm Bay,Palm Bay
-Independence,Independence
-Clearwater,Clearwater
-West Jordan,West Jordan
-Murrieta,Murrieta
-Provo,Provo
-Carlsbad,Carlsbad
-Beaumont,Beaumont
-Lakeland,Lakeland
-Westminster,Westminster
-Temecula,Temecula
-High Point,High Point
-West Palm Beach,West Palm Beach
-Pueblo,Pueblo
-Manchester,Manchester
-Everett,Everett
-Costa Mesa,Costa Mesa
-Pompano Beach,Pompano Beach
-El Monte,El Monte
-Lewisville,Lewisville
-Broken Arrow,Broken Arrow
-Antioch,Antioch
-Hillsboro,Hillsboro
-Lowell,Lowell
-Elgin,Elgin
-Centennial,Centennial
-Gresham,Gresham
-Sandy Springs,Sandy Springs
-Jurupa Valley,Jurupa Valley
-Billings,Billings
-Allen,Allen
-Downey,Downey
-Miami Gardens,Miami Gardens
-Greeley,Greeley
-League City,League City
-Tyler,Tyler
-Boulder,Boulder
-Inglewood,Inglewood
-Ventura,Ventura
-Sparks,Sparks
-Waterbury,Waterbury
-Davie,Davie
-Daly City,Daly City
-Santa Maria,Santa Maria
-Wichita Falls,Wichita Falls
-Las Cruces,Las Cruces
-Rialto,Rialto
-Green Bay,Green Bay
-West Covina,West Covina
-Nampa,Nampa
-Spokane Valley,Spokane Valley
-Chico,Chico
-Tuscaloosa,Tuscaloosa
-Norwalk,Norwalk
-South Fulton,South Fulton
-El Cajon,El Cajon
-San Mateo,San Mateo
-Edinburg,Edinburg
-Bend,Bend
-South Bend,South Bend
-Burbank,Burbank
-Davenport,Davenport
-Carmel,Carmel
-San Angelo,San Angelo
-Renton,Renton
-Lee's Summit,Lee's Summit
-Vacaville,Vacaville
-Vista,Vista
+City Name Column,City Name
+new york city,New York City
+los angeles,Los Angeles
+chicago,Chicago
+houston,Houston
+phoenix,Phoenix
+philadelphia,Philadelphia
+san antonio,San Antonio
+san diego,San Diego
+dallas,Dallas
+san jose,San Jose
+austin,Austin
+fort worth,Fort Worth
+jacksonville,Jacksonville
+columbus,Columbus
+charlotte,Charlotte
+indianapolis,Indianapolis
+san francisco,San Francisco
+seattle,Seattle
+denver,Denver
+washington dc,Washington DC
+boston,Boston
+el paso,El Paso
+nashville,Nashville
+detroit,Detroit
+las vegas,Las Vegas
+oklahoma city,Oklahoma City
+portland,Portland
+memphis,Memphis
+louisville,Louisville
+milwaukee,Milwaukee
+baltimore,Baltimore
+albuquerque,Albuquerque
+tucson,Tucson
+fresno,Fresno
+mesa,Mesa
+sacramento,Sacramento
+atlanta,Atlanta
+kansas city,Kansas City
+colorado springs,Colorado Springs
+omaha,Omaha
+raleigh,Raleigh
+miami,Miami
+long beach,Long Beach
+virginia beach,Virginia Beach
+minneapolis,Minneapolis
+oakland,Oakland
+tampa,Tampa
+tulsa,Tulsa
+arlington,Arlington
+wichita,Wichita
+new orleans,New Orleans
+aurora,Aurora
+bakersfield,Bakersfield
+cleveland,Cleveland
+anaheim,Anaheim
+honolulu,Honolulu
+santa ana,Santa Ana
+riverside,Riverside
+henderson,Henderson
+corpus christi,Corpus Christi
+lexington,Lexington
+stockton,Stockton
+saint paul,Saint Paul
+cincinnati,Cincinnati
+pittsburgh,Pittsburgh
+greensboro,Greensboro
+st. louis,St. Louis
+plano,Plano
+lincoln,Lincoln
+orlando,Orlando
+anchorage,Anchorage
+durham,Durham
+irvine,Irvine
+newark,Newark
+chula vista,Chula Vista
+fort wayne,Fort Wayne
+toledo,Toledo
+st. petersburg,St. Petersburg
+chandler,Chandler
+laredo,Laredo
+madison,Madison
+jersey city,Jersey City
+scottsdale,Scottsdale
+lubbock,Lubbock
+north las vegas,North Las Vegas
+reno,Reno
+gilbert,Gilbert
+glendale,Glendale
+buffalo,Buffalo
+winstonâ€“salem,Winstonâ€“Salem
+chesapeake,Chesapeake
+norfolk,Norfolk
+irving,Irving
+garland,Garland
+fremont,Fremont
+richmond,Richmond
+hialeah,Hialeah
+boise,Boise
+spokane,Spokane
+tacoma,Tacoma
+baton rouge,Baton Rouge
+san bernardino,San Bernardino
+fontana,Fontana
+modesto,Modesto
+moreno valley,Moreno Valley
+des moines,Des Moines
+fayetteville,Fayetteville
+santa clarita,Santa Clarita
+frisco,Frisco
+port st. lucie,Port St. Lucie
+mckinney,McKinney
+oxnard,Oxnard
+birmingham,Birmingham
+rochester,Rochester
+salt lake city,Salt Lake City
+huntsville,Huntsville
+cape coral,Cape Coral
+tempe,Tempe
+yonkers,Yonkers
+grand rapids,Grand Rapids
+amarillo,Amarillo
+huntington beach,Huntington Beach
+little rock,Little Rock
+augusta,Augusta
+overland park,Overland Park
+tallahassee,Tallahassee
+montgomery,Montgomery
+akron,Akron
+grand prairie,Grand Prairie
+knoxville,Knoxville
+sioux falls,Sioux Falls
+mobile,Mobile
+vancouver,Vancouver
+shreveport,Shreveport
+chattanooga,Chattanooga
+worcester,Worcester
+brownsville,Brownsville
+ontario,Ontario
+fort lauderdale,Fort Lauderdale
+peoria,Peoria
+providence,Providence
+newport news,Newport News
+rancho cucamonga,Rancho Cucamonga
+elk grove,Elk Grove
+salem,Salem
+oceanside,Oceanside
+santa rosa,Santa Rosa
+pembroke pines,Pembroke Pines
+cary,Cary
+eugene,Eugene
+garden grove,Garden Grove
+corona,Corona
+fort collins,Fort Collins
+springfield,Springfield
+clarksville,Clarksville
+alexandria,Alexandria
+hayward,Hayward
+jackson,Jackson
+lakewood,Lakewood
+lancaster,Lancaster
+salinas,Salinas
+hollywood,Hollywood
+killeen,Killeen
+macon,Macon
+sunnyvale,Sunnyvale
+murfreesboro,Murfreesboro
+palmdale,Palmdale
+escondido,Escondido
+pasadena,Pasadena
+pomona,Pomona
+thornton,Thornton
+bellevue,Bellevue
+naperville,Naperville
+surprise,Surprise
+denton,Denton
+midland,Midland
+joliet,Joliet
+rockford,Rockford
+paterson,Paterson
+roseville,Roseville
+mcallen,McAllen
+savannah,Savannah
+bridgeport,Bridgeport
+olathe,Olathe
+torrance,Torrance
+waco,Waco
+syracuse,Syracuse
+miramar,Miramar
+fullerton,Fullerton
+dayton,Dayton
+carrollton,Carrollton
+charleston,Charleston
+mesquite,Mesquite
+orange,Orange
+round rock,Round Rock
+hampton,Hampton
+visalia,Visalia
+gainesville,Gainesville
+cedar rapids,Cedar Rapids
+west valley city,West Valley City
+coral springs,Coral Springs
+warren,Warren
+columbia,Columbia
+sterling heights,Sterling Heights
+stamford,Stamford
+santa clara,Santa Clara
+new haven,New Haven
+kent,Kent
+concord,Concord
+elizabeth,Elizabeth
+lafayette,Lafayette
+athens,Athens
+thousand oaks,Thousand Oaks
+norman,Norman
+odessa,Odessa
+fargo,Fargo
+simi valley,Simi Valley
+victorville,Victorville
+wilmington,Wilmington
+topeka,Topeka
+abilene,Abilene
+pearland,Pearland
+berkeley,Berkeley
+arvada,Arvada
+hartford,Hartford
+allentown,Allentown
+meridian,Meridian
+richardson,Richardson
+vallejo,Vallejo
+ann arbor,Ann Arbor
+college station,College Station
+cambridge,Cambridge
+north charleston,North Charleston
+evansville,Evansville
+sugar land,Sugar Land
+clovis,Clovis
+fairfield,Fairfield
+lansing,Lansing
+palm bay,Palm Bay
+independence,Independence
+clearwater,Clearwater
+west jordan,West Jordan
+murrieta,Murrieta
+provo,Provo
+carlsbad,Carlsbad
+beaumont,Beaumont
+lakeland,Lakeland
+westminster,Westminster
+temecula,Temecula
+high point,High Point
+west palm beach,West Palm Beach
+pueblo,Pueblo
+manchester,Manchester
+everett,Everett
+costa mesa,Costa Mesa
+pompano beach,Pompano Beach
+el monte,El Monte
+lewisville,Lewisville
+broken arrow,Broken Arrow
+antioch,Antioch
+hillsboro,Hillsboro
+lowell,Lowell
+elgin,Elgin
+centennial,Centennial
+gresham,Gresham
+sandy springs,Sandy Springs
+jurupa valley,Jurupa Valley
+billings,Billings
+allen,Allen
+downey,Downey
+miami gardens,Miami Gardens
+greeley,Greeley
+league city,League City
+tyler,Tyler
+boulder,Boulder
+inglewood,Inglewood
+ventura,Ventura
+sparks,Sparks
+waterbury,Waterbury
+davie,Davie
+daly city,Daly City
+santa maria,Santa Maria
+wichita falls,Wichita Falls
+las cruces,Las Cruces
+rialto,Rialto
+green bay,Green Bay
+west covina,West Covina
+nampa,Nampa
+spokane valley,Spokane Valley
+chico,Chico
+tuscaloosa,Tuscaloosa
+norwalk,Norwalk
+south fulton,South Fulton
+el cajon,El Cajon
+san mateo,San Mateo
+edinburg,Edinburg
+bend,Bend
+south bend,South Bend
+burbank,Burbank
+davenport,Davenport
+carmel,Carmel
+san angelo,San Angelo
+renton,Renton
+lee's summit,Lee's Summit
+vacaville,Vacaville
+vista,Vista

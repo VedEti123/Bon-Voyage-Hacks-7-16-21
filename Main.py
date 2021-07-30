@@ -71,6 +71,9 @@ class City():
         for i in self.listedGuides:
             str1 += ("Link #" + str(num) + ": " + str(i) +"\n\n")
             num += 1
+        otherName = self.name
+        otherName = otherName.replace(' ', '+', 3)
+        str1 += self.name +" on Google Maps: https://www.google.com/maps/place/"+ otherName + "\n\n"
         str1 += "Reminder, I'm just a bot. Have a safe and happy journey!"
         return str1
 class Comment_Reader():
@@ -88,7 +91,10 @@ class Comment_Reader():
                 break
     
     def returnAdvice(self):
-        if(len(self.city) > 0):
+        
+        if ("Reminder, I\'m just a bot. Have a safe and happy journey!" in self.comment):
+            return ''
+        elif(len(self.city) > 0):
             newCity = City(list1.column(1).item(self.num))
             newCity.addGuides()
             return newCity.printAdvice()
@@ -96,75 +102,97 @@ class Comment_Reader():
             #return "I do not have experience recommending travel guide for the cities you mentioned, if any."
             return ''
     
+work = True
+commentsChecked=[]
 
-web = WebScrape()
-web.scrapeCities()
-web.createCSV()
-
-list1 = Table().read_table('Cities.csv')
-
-#city1 = City("Atlanta")
-#city1.addGuides()
-#print(city1.printAdvice())
-
-
-#newComment = Comment_Reader("I wish to go to Atlanta!")
-#newComment.readStr()
-#print(newComment.returnAdvice())
-
-#Enter your correct Reddit information into the variable below
-
-userAgent = 'AmericanTravelGuideBot'
-
-cID = 'pAModGt5lNHz5dy6esILSA'
-
-cSC= 'fYAZLaXpgdpZji38z1FOW93TKiPTRg'
-
-userN = 'TravelGuideBot'
-
-userP ='MasterChef'
-
-numFound = 0
-
-reddit = praw.Reddit(user_agent=userAgent, client_id=cID, client_secret=cSC, username=userN, password=userP)
-
-subreddit = reddit.subreddit('TravelBotTestSub') #any subreddit you want to monitor
-
-#bot_phrase = 'Aw shucks, looks like I am staying in >:(' #phrase that the bot replies with
-
-keywords = {'travel', 'visit', 'go'} #makes a set of keywords to find in subreddits
-
-for submission in subreddit.hot(limit=10): #this views the top 10 posts in that subbreddit
-
-    n_title = submission.title.lower() #makes the post title lowercase so we can compare our keywords with it.
+while(work):
+    web = WebScrape()
+    web.scrapeCities()
+    web.createCSV()
     
-    n_comments = submission.comments
+    list1 = Table().read_table('Cities.csv')
+    
+    #city1 = City("Atlanta")
+    #city1.addGuides()
+    #print(city1.printAdvice())
     
     
-    #for i in keywords: #goes through our keywords
-    for top_level_comment in submission.comments:
-            
-        if isinstance(top_level_comment, MoreComments):
-            continue
+    #newComment = Comment_Reader("I wish to go to Atlanta!")
+    #newComment.readStr()
+    #print(newComment.returnAdvice())
+    
+    #Enter your correct Reddit information into the variable below
+    
+    userAgent = 'AmericanTravelGuideBot'
+    
+    cID = 'pAModGt5lNHz5dy6esILSA'
+    
+    cSC= 'fYAZLaXpgdpZji38z1FOW93TKiPTRg'
+    
+    userN = 'TravelGuideBot'
+    
+    userP ='MasterChef'
+    
+    numFound = 0
+    
+    reddit = praw.Reddit(user_agent=userAgent, client_id=cID, client_secret=cSC, username=userN, password=userP)
+    
+    subreddit = reddit.subreddit('travel') #any subreddit you want to monitor
+    
+    
+    keywords = {'travel ', 'visit ', 'go ', 'Travel', 'Visit', 'Go'} #makes a set of keywords to find in subreddits
+    
+    for submission in subreddit.hot(limit=100): #this views the top 10 posts in that subbreddit
+    
+        n_title = submission.title.lower() #makes the post title lowercase so we can compare our keywords with it.
         
-        #for i in keywords:
-          
-        newComment = Comment_Reader(top_level_comment.body)
-        newComment.readStr()
-        #print(newComment.returnAdvice())  
-        #submission.reply(newComment.returnAdvice())
-        if (len(newComment.returnAdvice())>0):
-            top_level_comment.reply(newComment.returnAdvice())
-        #print(top_level_comment.body)
-    
-    newComment = Comment_Reader(submission.title)
-    newComment.readStr()
-    #print(newComment.returnAdvice())  
-    if (len(newComment.returnAdvice())>0):
-        submission.reply(newComment.returnAdvice()) 
-    
-    newComment2 = Comment_Reader(submission.selftext)
-    newComment2.readStr()
-    #print(newComment2.returnAdvice())  
-    if (len(newComment2.returnAdvice())>0):
-        submission.reply(newComment2.returnAdvice())    
+        n_comments = submission.comments
+        
+        '''
+        #for i in keywords: #goes through our keywords
+        for top_level_comment in submission.comments:
+                
+            if isinstance(top_level_comment, MoreComments):
+                continue
+            
+            #for i in keywords:
+              
+            newComment = Comment_Reader(top_level_comment.body)
+            newComment.readStr()
+            if (top_level_comment.body in commentsChecked) or ("Reminder, I'm just a bot. Have a safe and happy journey!" in top_level_comment.body):
+                print()
+            else:
+            #print(newComment.returnAdvice())  
+            #submission.reply(newComment.returnAdvice())
+                if (len(newComment.returnAdvice())>0):
+                    top_level_comment.reply(newComment.returnAdvice())
+                commentsChecked.append(top_level_comment.body)
+            #print(top_level_comment.body)
+        '''
+        flair = str(submission.link_flair_text)
+        
+        flair_final = flair.lower()
+        
+        if flair_final == 'itinerary' or flair_final == 'advice' or flair_final == 'question':
+        
+            #sub.add_comment('You posted with this flair! Congrats!')
+                
+            newComment = Comment_Reader(submission.title)
+            newComment.readStr()
+            #print(newComment.returnAdvice())
+            if submission.title in commentsChecked:
+                print()
+            else:        
+                if (len(newComment.returnAdvice())>0):
+                    submission.reply(newComment.returnAdvice()) 
+                commentsChecked.append(submission.title)
+            
+            newComment2 = Comment_Reader(submission.selftext)
+            newComment2.readStr()
+            #print(newComment2.returnAdvice())  
+            if submission.selftext in commentsChecked:
+                print()
+            else:        
+                if (len(newComment2.returnAdvice())>0):
+                    submission.reply(newComment2.returnAdvice()) 
+                commentsChecked.append(submission.selftext)
